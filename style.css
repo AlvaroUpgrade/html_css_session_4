@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  max-height: 100vh;
+  background-image: url("https://cdn.clickwallpapers.net/images/clickwallpapers-BMWS%C3%A9rie3Sed%C3%A3-carros-fullhd-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.786);
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons-logo {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 30%;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding-right: 50px;
+}
+
+.header-icons i {
+  color: white;
+}
+
+.logo-header {
+  display: flex;
+}
+.logo-header img {
+  height: 150px;
+}
